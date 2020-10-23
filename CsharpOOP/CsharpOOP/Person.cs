@@ -62,6 +62,7 @@ namespace CSharpOOP
         // Add a Eat() method that will increase energy and decrease stress.
         // Teacher: +15 energy, -5 stress.
         // Student: +20 energy, -10 stress.
+        abstract public void Eat();
 
     }
 }
