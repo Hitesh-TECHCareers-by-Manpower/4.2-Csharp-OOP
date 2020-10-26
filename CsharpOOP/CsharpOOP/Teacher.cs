@@ -12,6 +12,11 @@ namespace CSharpOOP
 
         public Classroom Room { get; set; }
 
+        public override string FullName
+        {
+
+        }
+
         public void AssignHomework()
         {
             foreach (Student student in Class)
