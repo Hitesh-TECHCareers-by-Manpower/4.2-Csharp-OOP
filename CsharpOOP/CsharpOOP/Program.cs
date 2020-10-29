@@ -31,6 +31,7 @@ namespace CSharpOOP
             Console.WriteLine($"The first name of the person with the longest last name: {personList.Where(x => x.LastName.Length == personList.Select(y => y.LastName.Length).Max()).Select(x => x.FirstName).Single()}.");
             Console.WriteLine($"The gender of the oldest person: {personList.Where(x => x.DateOfBirth == personList.Select(y => y.DateOfBirth).Min()).Select(x => x.Gender).Single()}.");
 
+
         }
         static List<Person> SeedPersonList()
         {
